@@ -1,0 +1,279 @@
+<!--TWO JQUERIES -->
+<!-- CLICK LOREM IPSUM!( green box on the left) -->
+<!-- Click BUY! (alert) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+
+  <title>Blife.com.ph - Buy affordable Bicycles and gears</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/shop-homepage.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+  <script src='jquery.zoom.js'></script>
+ <script>
+    $(document).ready(function(){
+      $('#ex1').zoom();
+      $('#ex2').zoom({ on:'grab' });
+      $('#ex3').zoom({ on:'click' });      
+      $('#ex4').zoom({ on:'toggle' });
+    });
+  </script>
+</head>
+
+<body>
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-forest fixed-top navbar-transparent ">
+    <div class="container">
+      <a class="navbar-brand" href="#">Shop now!</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-3">
+
+        <h1 class="my-4" >Bicycle of Life</h1>
+        <div class="list-group">
+          <a href="#" class="list-group-item">Brandnew</a>
+          <a href="#" class="list-group-item">2nd hand</a>
+          <a href="#" class="list-group-item">Gears</a>
+          <a href="#" class="list-group-item">Kids bike</a>
+        </div><br>
+
+        <div id="flip"><h3>Lorem ipsum dolor</h3></div>
+        <div id="panel">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis deleniti quod, excepturi, suscipit quae architecto dolore aspernatur eveniet doloremque autem perferendis, cum ipsum ullam. Quaerat assumenda molestias eum! Dicta, repellendus.</div>
+        <br>
+        <!-- addvertisement section -->
+        <button id="delAbutton">clear adds!</button>
+        <div id="ad1">
+          <img src="http://placehold.it/230x400" alt="ads">
+        </div>
+        <div id="ad2">
+          <img src="http://placehold.it/230x400" alt="ads">
+        </div>
+
+      </div>
+      <!-- /.col-lg-3 -->
+
+      <div class="col-lg-9">
+
+        <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img class="d-block img-fluid" src="img/xmas.jpg" alt="First slide" style="width:825px;height:360px">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="img/xmas1.jpg" alt="Second slide" style="width:825px;height:360px">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="img/x.jpg" alt="Third slide" style="width:825px;height:360px">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+<!-- items -->
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <span class="zoom" id="ex1" href="#"><img class="card-img-top" src="img/i1.jpg" alt="" width='250' height='180'></span>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">RoyalBaby BMX Freestyle 18'' Kids Bike 2018</a>
+                </h4>
+                <h5>PHP 9,999.00</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                <button class="BButton">BUY</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <span href="#"><img class="card-img-top" src="img/i2.jpg" alt="" width='250' height='180'></span>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Scott Contessa Addict RC Ultegra R8050 Disc 2019</a>
+                </h4>
+                <h5>PHP 8,999.00</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+                <button class="BButton">BUY</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <span href="#"><img class="card-img-top" src="img/i3.jpg" alt="" width='250' height='180'></span>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">GT eVerb Current E-Mountain Bike 2019</a>
+                </h4>
+                <h5>PHP 7,599.00</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                <button class="BButton">BUY</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <span href="#"><img class="card-img-top" src="img/i4.jpg" alt="" width='250' height='180'></span>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Rocky Mountain Thunderbolt BC90 2019 medium</a>
+                </h4>
+                <h5>PHP 9,499.00</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                <button class="BButton">BUY</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <span href="#"><img class="card-img-top" src="img/i5.jpg" alt="" width='250' height='180'></span>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Pinarello F8 Dogma 56 White Custom Build ***runout***</a>
+                </h4>
+                <h5>PHP 15,599.00</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+                <button class="BButton">BUY</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <span href="#"><img class="card-img-top" src="img/i6.jpg" alt="" width='250' height='180'></span>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="#">Specialized S-Works Tarmac 2019</a>
+                </h4>
+                <h5>PHP 12,999.00</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                <button  class="BButton">BUY</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!-- /.row -->
+
+      </div>
+      <!-- /.col-lg-9 -->
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-forest1">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Blife 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- who -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+    $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+    });
+    });
+  </script>
+  <script>
+  $(document).ready(function(){
+  $(".BButton").click(function(){
+    alert("Not yet possible!");
+  },
+  function(){
+    alert("Not yet possible!");
+  }); 
+  });
+</script>
+
+
+ 
+</body>
+
+</html>
